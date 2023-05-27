@@ -16,13 +16,13 @@ It will launch the Minikube instance on your enviroment.
 
 I was using Google Codespace and VS Code IDE:
 
-![minikube-1] (https://github.com/ottomen/AsciiArtify/tree/main/doc/images/minikube-1.png)
+![minikube-1](https://github.com/ottomen/AsciiArtify/tree/main/doc/images/minikube-1.png)
 
 ### Install Argo CD
 
 Create k8s namespace, create and updates resources:
 
-![argocd-1] (https://github.com/ottomen/AsciiArtify/tree/main/doc/images/argocd-1.png)
+![argocd-1](https://github.com/ottomen/AsciiArtify/tree/main/doc/images/argocd-1.png)
 
 ```
 kubectl create namespace argocd
@@ -58,7 +58,7 @@ argocd app create guestbook --repo https://github.com/argoproj/argocd-example-ap
 
 Visit [https://127.0.0.1:8080/](https://127.0.0.1:8080/) and enter login (admin by default) and you new password.
 
-![argocd-2] (https://github.com/ottomen/AsciiArtify/tree/main/doc/images/argocd-2.png)
+![argocd-2](https://github.com/ottomen/AsciiArtify/tree/main/doc/images/argocd-2.png)
 
 You can check the Guestbook status:
 
@@ -74,4 +74,4 @@ You can check the Minikube dashboard:
 minikube dashboard
 ```
 
-![minikube-2] (https://github.com/ottomen/AsciiArtify/tree/main/doc/images/minikube-2.png)
+![minikube-2](https://github.com/ottomen/AsciiArtify/tree/main/doc/images/minikube-2.png)

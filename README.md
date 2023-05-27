@@ -16,4 +16,5 @@ The answer to the task will be a link to the AsciiArtify repository with demo in
 
 ### Docs
 
-[PoC docs](./doc/POC.md)
+[PoC doc](./doc/POC.md)
+[MVP doc](./doc/MVP.md)
